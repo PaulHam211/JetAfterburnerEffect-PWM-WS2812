@@ -7,17 +7,21 @@
 //   \_/\_/   |___/ /___| \___/ |_| /___|                                                         
 //
 // RC (PWM) controlled NeoPixel strip/ring. 
-// Details in the RCGroups forum - 
+// Details in the RCGroups forum - https://www.rcgroups.com/forums/showpost.php?p=36543522&postcount=6652
 // 
+// Source code downloaded from PaulHam211 https://github.com/PaulHam211/JetAfterburnerEffect-PWM-WS2812
+//
 // Connect PWM signal (from flight controller) in line with ESC signal wire to
 // Digital IO pin 0.
 // 
 // Connect Neopixel strip or singular LEDs (WS2812 RGB LED) to Digital IO pin 1
+// Power Digispark & LED ring from ESC BEC 5v+
 // 
 // Define NUMPIXELS to amount of LEDs on strip/ring
 // 
 // Code adapted from http://www.mostfun.de/index.php/modellbau/flugzeuge-blogansicht/314-edf-afterburner2
 // CC BY (free with attribution) and who wants to find a better solution or make improvements, can do this gladly.
+// -------------------//
 
 #define PIN            1
 #define NUMPIXELS      16
